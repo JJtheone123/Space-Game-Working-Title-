@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1BFB4E80-3103-171A-0011-00C1A8EC8423}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "WORK_DAMN_YOU",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

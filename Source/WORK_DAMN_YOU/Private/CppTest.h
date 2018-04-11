@@ -1,0 +1,31 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#ifndef CPP_TEST_HPP
+#define CPP_TEST_HPP
+
+#include "CoreMinimal.h"
+#include "GameFramework/Pawn.h"
+#include "CppTest.generated.h"
+
+UCLASS()
+class ACppTest : public APawn
+{
+	GENERATED_BODY()
+
+public:
+	// Sets default values for this pawn's properties
+	ACppTest();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+};
+
+#endif //CPP_TEST_HPP
