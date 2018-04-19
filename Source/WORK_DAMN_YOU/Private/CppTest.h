@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#ifndef CPP_TEST_HPP
-#define CPP_TEST_HPP
+#pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
